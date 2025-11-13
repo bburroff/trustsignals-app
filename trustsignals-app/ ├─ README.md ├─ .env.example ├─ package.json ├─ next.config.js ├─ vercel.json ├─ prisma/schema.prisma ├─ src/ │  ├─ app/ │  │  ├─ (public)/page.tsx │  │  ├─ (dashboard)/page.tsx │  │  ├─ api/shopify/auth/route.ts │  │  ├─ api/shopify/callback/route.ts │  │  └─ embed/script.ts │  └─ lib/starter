@@ -1,0 +1,18 @@
+trustsignals-app/
+├─ README.md
+├─ .env.example
+├─ package.json
+├─ next.config.js
+├─ vercel.json
+├─ prisma/schema.prisma
+├─ src/
+│  ├─ app/
+│  │  ├─ (public)/page.tsx
+│  │  ├─ (dashboard)/page.tsx
+│  │  ├─ api/shopify/auth/route.ts
+│  │  ├─ api/shopify/callback/route.ts
+│  │  └─ embed/script.ts
+│  └─ lib/
+│     ├─ shopify.ts
+│     ├─ db.ts
+│     └─ auth.ts
